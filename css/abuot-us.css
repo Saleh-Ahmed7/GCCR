@@ -1,28 +1,56 @@
-.img-sections{
+.img-sections {
     width: 100%;
     height: 25vh;
     background-repeat: no-repeat;
 }
-.side-bar{
+
+.side-bar {
     background-color: #F6F6F6;
     height: 100%;
     padding: 1rem;
-    font-size: 17px;
+    font-size: 16px;
     border-radius: 15px;
     font-weight: 300;
     width: 100%;
 }
-.title-pargrav{
+
+.title-pargrav {
     color: red;
 
 }
+
 .my-link {
     text-decoration: none;
     cursor: pointer;
     color: black;
-  }
+}
 
+.bg-card {
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px;
+    height: 100%;
+}
 
+.image-members {
+    border-radius: 19px;
+    height: 250px;
+    padding: 0.5rem;
+
+}
+
+.jop-name {
+    font-size: 12px;
+
+}
+
+.Partner-car {
+    border-radius: 15px;
+    height: 100px;
+    width: 250px;
+}
 
 @media all and (max-width: 460px) {
+    .Partner-car {
+        width: 100%;
+    }
 }
