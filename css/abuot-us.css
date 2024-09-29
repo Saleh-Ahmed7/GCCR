@@ -18,7 +18,11 @@
 }
 .my-link {
     text-decoration: none;
+    cursor: pointer;
+    color: black;
   }
-  
+
+
+
 @media all and (max-width: 460px) {
 }
