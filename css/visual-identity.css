@@ -1,0 +1,39 @@
+.img-sections {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.bg-img-sections {
+    background: linear-gradient(to right, #000000ba, rgba(2, 67, 87, 0.705));
+    width: 100%;
+    height: 100%;
+}
+
+.h1-img-sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    font-size: 60px;
+}
+.imag-div{
+    width: 804px;
+    height: 581px;
+    border-radius: 15px;
+
+}
+.bg-div{
+    width: 270.62px;
+}
+.bg-img{
+    background-color: white;
+    width: 804px;
+    height: 479px;
+}
+.bg-pdf{
+    background-color: white;
+    width: 804px;
+    height: 479px;
+}
