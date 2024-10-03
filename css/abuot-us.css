@@ -1,45 +1,67 @@
+.bg-baneer1 {
+    background: linear-gradient(84.59deg, rgba(0, 0, 0, 0.84) 2.32%, rgba(51, 107, 133, 0.84) 99.01%);
+    width: 100%;
+    height: 100%;
+}
+
 .img-sections {
     width: 100%;
-    height: 25vh;
+    height: 279.25px;
     background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center
 }
 
 .side-bar {
     background-color: #F6F6F6;
-    height: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     font-size: 16px;
     border-radius: 15px;
-    font-weight: 300;
-    width: 100%;
+    font-weight: 600;
+    width: 285px;
+    height: 260px;
+    opacity: 0px;
 }
 
 .title-pargrav {
-    color: red;
+    color: rgba(233, 34, 40, 1);
+}
 
+.title-pargrav2 {
+    color: rgba(233, 34, 40, 1);
+    margin-top: 5rem;
 }
 
 .my-link {
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: rgb(0, 0, 0);
+
 }
 
 .bg-card {
-    background-color: rgb(242, 242, 242);
-    border-radius: 15px;
-    height: 100%;
+    width: 204px;
+    height: 269px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    background: rgba(246, 246, 246, 1);
+
 }
 
 .image-members {
     border-radius: 19px;
-    height: 250px;
+    height: 206px;
     padding: 0.5rem;
+    width: 186px;
+    border-radius: 10px;
+    opacity: 0px;
 
 }
 
 .jop-name {
     font-size: 12px;
+
 
 }
 
@@ -49,11 +71,66 @@
     width: 250px;
 }
 
+.h1-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+
+}
+
+.pragrav-1 {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: justify;
+
+}
+
+.but-sidbar {
+    border: none;
+    background-color: #F6F6F6;
+    font-weight: 300;
+    height: 30px;
+}
+
+.but-sidbar:focus {
+    background-color: rgba(30, 82, 106, 1);
+    color: white;
+    width: 300px;
+    height: 40px;
+    text-align: start;
+    border-radius: 5px;
+    font-weight: 500;
+    clip-path: polygon(0% 0%, 75% 0%, 79% 49%, 75% 100%, 0% 100%);
+
+
+}
+
+.bg-Organization {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    box-shadow: 1px 1px 10px rgb(209, 209, 209);
+
+}
+
+.imag-chart {
+    width: 100%;
+    height: 100%;
+}
+
 @media all and (max-width: 460px) {
     .Partner-car {
         width: 100%;
     }
-    .imag-chart{
+
+    .imag-chart {
         width: 100%;
         height: 100%;
     }
