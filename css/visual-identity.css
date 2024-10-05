@@ -25,15 +25,39 @@
 
 }
 .bg-div{
-    width: 270.62px;
+    width: 842px;
+    height:581px ;
 }
-.bg-img{
-    background-color: white;
+.bg-white{
     width: 804px;
     height: 479px;
+    
 }
 .bg-pdf{
     background-color: white;
     width: 804px;
     height: 479px;
+}
+.img-sections {
+    width: 100%;
+    height: 279.25px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center
+}
+.bg-baneer1 {
+    background: linear-gradient(84.59deg, rgba(0, 0, 0, 0.84) 2.32%, rgba(51, 107, 133, 0.84) 99.01%);
+    width: 100%;
+    height: 100%;
+}
+.h1-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+
 }
